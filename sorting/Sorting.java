@@ -38,7 +38,12 @@ public class Sorting {
 
 	public static int[] mergeSort(int[] array) {
 		
-		 return array;
+		return array;
+	}
+
+	public static int[] quickSort(int[] array) {
+
+		return array;
 	}
 
 }

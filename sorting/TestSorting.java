@@ -13,8 +13,9 @@ public class TestSorting {
 			array[x] = reader.nextInt();			
 		}
 
-		//sortedArray = Sorting.SelectionSort(array);
-		sortedArray = Sorting.InsertionSort(array);
+		//sortedArray = Sorting.selectionSort(array);
+		//sortedArray = Sorting.insertionSort(array);
+		sortedArray = Sorting.mergeSort(array);
 		for(int x = 0; x < tam; x++) {
 			System.out.println(sortedArray[x]);
 		}
